@@ -129,7 +129,7 @@ Es wird zu Beginn die Möglichkeit gegeben, eine README-, sowie eine license- un
 
 Ein Git-Repository sieht wie folgt aus:
 
-![Git Repository](./images/git_repo.Ppng)
+![Git Repository](./images/git_repo.png)
 
 Die Startseite bietet einige Überblicke über das Repository, beispielsweise im Container über den enthaltenen Dateien die Anzahl an Commits, Anzahl der Branches, Lizenz etc., aber auch die verwendeten Programmiersprachen durch farbliche Kennzeichnung.
 
