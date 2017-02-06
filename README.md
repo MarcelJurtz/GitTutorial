@@ -16,9 +16,11 @@ Git ist ein beliebtes System zur Versionskontrolle. Projekte werden als *Reposit
 ## Installation
 
 * Linux (Debian-basiert)
+
   ```Bash
   apt-get install git-all
   ```
+  
 * [Windows](https://git-for-windows.github.io/)
 * [Mac](http://git-scm.com/download/mac)
 
