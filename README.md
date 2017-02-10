@@ -322,5 +322,6 @@ Die Zeichen nach dem Parameter *hard* entsprechen den ersten sieben zeichen der 
 
 ## Links
 
-* [https://git-scm.com/docs](Git Reference)
-* [https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf](Git Cheat Sheet)
+* [Git Reference](https://git-scm.com/docs)
+* [Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+* [Markdown Tutorial](http://www.markdowntutorial.com)
