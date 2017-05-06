@@ -1,4 +1,4 @@
-# Git Tutorial
+﻿# Git Tutorial
 
 Dieses Tutorial deckt nur einen Teil der Versionskontrolle mit Git ab, alle abgebildeten Parameter stellen zudem nur eine kleine Teilmenge der verfügbaren Optionen dar.
 
@@ -320,8 +320,19 @@ git reset --hard d525ac9
 
 Die Zeichen nach dem Parameter *hard* entsprechen den ersten sieben zeichen der gewünschten Commit-SHA-Checkum. Mit dem Befehl wird der Commit-Verlauf geändert, die auf den angegebenen Commit folgenden Commits werden entfernt, weshalb dieser Befehl vermieden werden sollte.
 
+## Alternativen
+
+Wem die Arbeit per Terminal zu aufwendig ist kann alternativ verschiedene grafische Oberflächen verwenden.
+* [SourceTree](https://www.sourcetreeapp.com/)
+
 ## Links
 
 * [Git Reference](https://git-scm.com/docs)
 * [Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 * [Markdown Tutorial](http://www.markdowntutorial.com)
+
+## Git Hosting
+
+* [GitHub](https://github.com/)
+* [GitLab](https://gitlab.com/)
+* [BitBucket](https://bitbucket.org/)
