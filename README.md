@@ -68,7 +68,7 @@ git add test.txt
 # -> test.txt ist grün dargestellt
 
 # Hinzufügen zum Repository
-git add -m "Add test"
+git commit -m "Add test"
 ```
 
 Jeder Commit wird durch Anhängen einer Nachricht mit dem Parameter *m* dokumentiert.
@@ -265,7 +265,7 @@ git branch -b branch_name
 Wenn später zwei Branches zusammengeführt werden sollen, geschieht das wie folgt:
 
 ```Bash
-git checkout branch_name
+git merge branch_name
 ```
 
 Hierbei ist zu beachten, dass der Befehl von dem Branch aus durchgeführt werden muss, auf den der Merge stattfinden soll. In dem Beispiel aus obigem Bild ist dies problemlos möglich, da während der Entwicklung auf dem *NewFeature*-Branch keine Änderungen auf dem Branch *master* stattgefunden haben. Sollte dies der Fall sein, müssen die entstandenen Merge-Conflicts wie oben beschrieben behoben werden.
