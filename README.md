@@ -1,5 +1,7 @@
 ﻿# Git Tutorial
 
+[Use this file for an english version.](README_EN.md)
+
 Dieses Tutorial deckt nur einen Teil der Versionskontrolle mit Git ab, alle abgebildeten Parameter stellen zudem nur eine kleine Teilmenge der verfügbaren Optionen dar.
 
 ## Git?
@@ -330,9 +332,3 @@ Wem die Arbeit per Terminal zu aufwendig ist kann alternativ verschiedene grafis
 * [Git Reference](https://git-scm.com/docs)
 * [Git Cheat Sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 * [Markdown Tutorial](http://www.markdowntutorial.com)
-
-## Git Hosting
-
-* [GitHub](https://github.com/)
-* [GitLab](https://gitlab.com/)
-* [BitBucket](https://bitbucket.org/)
