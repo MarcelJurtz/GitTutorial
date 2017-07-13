@@ -22,7 +22,7 @@ Git ist ein beliebtes System zur Versionskontrolle. Projekte werden als *Reposit
   ```Bash
   apt-get install git-all
   ```
-  
+
 * [Windows](https://git-for-windows.github.io/)
 * [Mac](http://git-scm.com/download/mac)
 
@@ -321,6 +321,24 @@ git reset --hard d525ac9
 ```
 
 Die Zeichen nach dem Parameter *hard* entsprechen den ersten sieben zeichen der gewünschten Commit-SHA-Checkum. Mit dem Befehl wird der Commit-Verlauf geändert, die auf den angegebenen Commit folgenden Commits werden entfernt, weshalb dieser Befehl vermieden werden sollte.
+
+## Konventionen & Good Practices
+
+Um Repositories so übersichtlich wie möglich zu halten, bietet es sich an, den Richtlinien in der Beschriftung von Branches und Commits zu folgen.
+
+### Commits
+
+Commits sollten folgendermaßen formuliert werden:
+
+* Kurze und bündige Formulierung
+* Beginn mit einem normalisierten Set an Verben im Präsens, beispielsweise *add*, *remove*, *update*
+
+### Branches
+
+Hier bietet es sich ebenfalls an, kurze und prägnante Formulierungen zu verwenden, häufig wird ein Verb davorgestellt, welches den Zweck des Branches verdeutlicht. Beispielsweise *add/feature_a*, *remove/feature_b*.
+
+Bei öffentlichen Projekten sollte außerdem auf die Vorgehensweise anderer Autoren geachtet werden.
+Als Beispiel kann die Historie dieses Repositories herangezogen werden.
 
 ## Alternativen
 

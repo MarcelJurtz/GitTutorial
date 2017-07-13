@@ -19,7 +19,7 @@ Git is a popular system for version control. Projects on git are called *Reposit
   ```Bash
   apt-get install git-all
   ```
-  
+
 * [Windows](https://git-for-windows.github.io/)
 * [Mac](http://git-scm.com/download/mac)
 
@@ -127,7 +127,7 @@ Es wird zu Beginn die Möglichkeit gegeben, eine README-, sowie eine license- un
 * license
 
 	All repositories on Github (free accounts) are public available. With a license-file, the usage of the repository can be adjusted to different preferences.
-	
+
 	Github offers some pre-defined licenses, for example MIT and GPLv3, along with information on the differences.
 
 * .gitignore
@@ -321,6 +321,23 @@ git reset --hard d525ac9
 
 As shown earlier, you need to add the first characters of the commits checksum to identify the commit.
 This command should only be used with caution, since it changes the commit-history.
+
+## Conventions & Good Practices
+
+To keep repositories as clear as possible, you should follow some general rules in naming commits and branches.
+
+### Commits
+
+Commits should be written under considering the following:
+
+* Keep it short and simple
+* Begin with a normalized set of verbs, written in present tense, for example: *add*, *remove*, *update*
+
+### Branches
+
+It is useful to use a short and precise formulation here as well. Often, a verb as prefix is used to describe the purpose of the branch. For example: *add/feature_a*, *remove/feature_b*.
+
+When contributing to public projects, you should also check the previous commits to adjust to the organization of the other authors.
 
 ## Alternatives
 
