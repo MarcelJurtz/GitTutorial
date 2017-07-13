@@ -1,6 +1,0 @@
-/* Remove image border */
-.reveal section img {
-  background:none;
-  border:none;
-  box-shadow:none;
-}
