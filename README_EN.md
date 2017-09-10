@@ -64,7 +64,7 @@ git add test.txt
 # -> test.txt ist now displayed green
 
 # Adding files to the repository
-git comit -m "Add test"
+git commit -m "Add test"
 ```
 
 Each commit is commented with the -m-flag.
@@ -104,7 +104,7 @@ You can set this for each project individually, just leave out the *--global*-fl
 
 In the following, *HEAD* is often mentioned. HEAD is the most recent commit of the current branch.
 
-## Verwendung von Remotes
+## Using Remotes
 
 A remote is a repository on a server / different pc, for example hosted on Github.
 
